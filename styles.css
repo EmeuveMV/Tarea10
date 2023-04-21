@@ -1,0 +1,73 @@
+@import "https://fonts.googleapis.com/css?family=Lily+Script+One";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+
+#dvBotones{
+	text-align: center;
+
+}
+html{
+	background: linear-gradient( #3CB371, #66CDAA  ); /*#d6eced,#9ad1d4*/
+}
+
+body{
+	width: 90%;
+	margin: 50px;
+	background: white;
+	border:solid 1px black;
+	padding: 10px;
+	
+}
+fieldset
+		{
+			border-color: #F9E79F;
+			margin-bottom: 10px;
+			background-color: #F7DC6F;
+			border-radius: 10px;
+		}
+legend
+		{
+			border: solid 1px black;
+			padding: 5px;
+			color: #E67E22;
+			font-weight: bold;
+			border-radius: 10px;
+		}		
+.boton-personalizado{
+text-decoration:none;
+font-weight: 400;
+font-size: 20px;
+color:#333333;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#FFD27D;
+border-color: #FFD27D;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+box-shadow:
+inset 0 -3em 3em rgba(0,0,0,0.1),
+	  0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+
+}
+#mifoto{
+	margin-top:-20px;
+	width: 300px;
+}
+.container img{
+
+	width: 500px;
+	height: 250px;
+	box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.titulo {
+
+	text-align: center;
+	color: #E67E22;
+	text-shadow: 5px 3px 5px #ccc;
+}
